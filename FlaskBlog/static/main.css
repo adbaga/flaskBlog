@@ -1,4 +1,11 @@
+@font-face {
+  font-family: Oxygen;
+  src: 'Oxygen/Oxygen-Regular.ttf ';
+  font-weight: bold;
+}
+
 body {
+  /* font-family: Oxygen; */
   background: #fafafa;
   color: #333333;
   margin-top: 5rem;
@@ -13,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-aqua {
-  background-color: #039688;
+  background-color: #244845;
 }
 
 
@@ -57,6 +64,7 @@ a.article-title:hover {
 }
 
 .article-metadata {
+  margin-top: 2px;
   padding-bottom: 1px;
   margin-bottom: 4px;
   border-bottom: 1px solid #e3e3e3
@@ -73,6 +81,7 @@ a.article-title:hover {
   vertical-align: middle;
 }
 
+
 .account-img {
   height: 125px;
   width: 125px;
@@ -80,6 +89,18 @@ a.article-title:hover {
   margin-bottom: 16px;
 }
 
+
 .account-heading {
   font-size: 2.5rem;
 }
+
+
+.btn-def-col{
+  color: #244845;
+}
+
+/* #logo{
+
+  font-family: Oswald;
+  color: rgb(250, 229, 39);
+} */
